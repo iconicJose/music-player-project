@@ -2,6 +2,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test qa/playlist-draft.test.js"
+    "test": "node --test qa/playlist-draft.test.js qa/playback-queue.test.js"
   }
 }

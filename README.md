@@ -6,7 +6,7 @@ An independent, mobile-focused music and podcast player with playlist and librar
 
 ## Code sample
 
-This repository shares the playlist draft model and its tests, not the complete application. The model keeps duplicate recordings distinct and supports removal, grouped reordering, undo, and redo.
+This repository shares the playlist draft and playback queue models with their tests, not the complete application. The playlist model keeps duplicate recordings distinct and supports removal, grouped reordering, undo, and redo. The playback queue handles playback order, explicit additions, shuffle, and restoring queue state.
 
 Run the tests with Node.js:
 
